@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/assets">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <title>Barbearia</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <img src="./assets/logo2.png" width="350px" height="200px" alt="logo">
+                <span class="linha"></span>
+                <ul>
+                    <li><a href="#nosso-espaco">Nosso espaço</a></li>
+                    <li><a href="#servico">Servicos</a></li>
+                    <li><a href="#contatos">Contato</a></li>
+                </ul>
+            </nav>
+            <section id="home">
+
+                <div class="textos-home">
+                    <h1>Seja bem vindo à Barbearia do Melo! <span> Que tal aquele visual novo?</span></h1>
+                    <button class="btn-main">Agendar horário</button>
+                </div>
+                <div class="img-home">
+                    <img src="/assets/home-image.png" alt="homem de barba grande">
+                </div>
+
+            </section>
+        </header>
+        <section id="nosso-espaco">
+            <div class="detalhes">
+                <div class="imgs-espaco">
+                    <img class="img-espaco" src="/assets/sala.jpg" width="509px" height="321px"
+                        alt="área para cortar cabelo">
+                </div>
+                <div class="espaco-textos">
+                    <h2 class="titulo">Tecnologia de ponta!</h2>
+                    <p class="infos">Oferecemos equipamentos de ponta, produtos certificados e uma equipe de
+                        profissionais ultra qualificados para você ficar totalmente satisfeito.</p>
+                    <img class="separador" src="./assets/separador-direita.svg" alt="separador de seções">
+                </div>
+            </div>
+            <div class="detalhes">
+                <div class="imgs-espaco">
+                    <img class="img-espaco" src="/assets/espera.png" width="509px" height="321px" alt="sala de espera">
+                </div>
+                <div class="espaco-textos">
+                    <h2 class="titulo">Salas de espera aconchegantes...</h2>
+                    <p class="infos">Salas de espera com área de churrasco, mesa de bilhar, bebidas e muito mais entretenimento.</p>
+                    <img class="separador" src="./assets/separador-esquerda.svg" alt="separador de seções">
+                </div>
+            </div>
+        </section>
+        <section id="servico">
+
+            <div class="cards">
+                <div class="card">
+                    <img src="/assets/navalha.jpg" width="200px" height="130px" alt="homem segurando navalha">
+                    <h3 class="card-titulo">Navalha</h3>
+                    <img src="./assets/Soft Star.png" alt="soft star">
+                    <p class="card-texto">Navalhas top de linha, com lâminas feitas no sudoeste da Argentina, extraídas do fundo de um vulcão.</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/shampoo.png" width="200px" height="130px" alt="linha cosméticos">
+                    <h3 class="card-titulo">Shampoo</h3>
+                    <img src="./assets/Soft Star.png" alt="soft star">
+                    <p class="card-texto">Linha de shampoo profissional, Linha Gorilla, com produtos extraídos de gorilas do sul da África.</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/tesoura.png" alt="homem cortando cabelo com tesoura">
+                    <h3 class="card-titulo">Tesouras</h3>
+                    <img src="./assets/Soft Star.png" alt="soft star">
+                    <p class="card-texto">Tesouras são exportadas do sul da Indonésia, extráidas somente no outono, para terem um corte perfeito.</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="desconto">
+            <img src="/assets/mandala-esquerda.png" alt="Mandala lado esquerdo">
+            <div class="desconto-form">
+                <h4>Inscreva-se para ganhar descontos!</h4>
+                <p>Cadastre seu email para receber descontos e novidades sobre o espaço e nossos serviços.</p>
+                <div class="input-btn">
+                    <input type="email">
+                    <button type="submit">Inscrever</button>
+                </div>
+            </div>
+            <img src="/assets/mandala-direita.png" alt="Mandala lado direito">
+        </section>
+        <section id="contatos">
+            <div class="contatos-imgs">
+                <img src="./assets/antigo.jpg" width="600px" height="350px" alt="barbearia antiga em preto e branco">
+            </div>
+            <div class="contatos-form">
+                <h4 class="titulo">Entre em contato</h4>
+                <p class="infos">Reserve seu horário, tire dúvidas ou proponha sugestões, nosso canal é aberto para
+                    você!</p>
+                <form class="inputs">
+                    <div class="form-group">
+                        <label for="nomeContato">Nome</label>
+                        <input type="text" id="nomeContato" placeholder="Digite nome completo">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailContato">Email</label>
+                        <input type="email" id="emailContato" placeholder="Digite seu email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefoneContato">Telefone</label>
+                        <input type="text" id="telefoneContato" placeholder="(xx) xxxxx-xxxx">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagemContato">Mensagem</label>
+                        <textarea type="text" id="mensagemContato" placeholder="Escreva sua mensagem"></textarea>
+                    </div>
+                    <button class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <footer class="rodape">
+            <small>Desenvolvido por grupo Bardini.</small>
+        </footer>
+    </main>
+</body>
+
+</html>
